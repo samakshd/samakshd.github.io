@@ -527,12 +527,12 @@ ul {
   background-position: center center; }
 
 .home-2-img {
-  background-image: url(../images/home-bg-img.jpg); 
+  background-image: url(../images/home-bg-img.png); 
   min-height: 100vh;
 }
 
 .featured-img-one {
-  background-image: url(../images/home-bg-img.jpg); }
+  background-image: url(../images/home-bg-img2.jpg); }
 
 .featured-img-two {
   background-image: url(../images/extra-feature-bg.jpg); }
