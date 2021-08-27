@@ -346,9 +346,10 @@
           var name = $("#name").val();
           var email = $("#email").val();
           var message = $("#message").val();
+          formSuccess();
           $.ajax({
               type: "POST",
-              url: "process.php",
+              url: "https://formspree.io/f/mnqllaaz",
               data: "name=" + name + "&email=" + email + "&message=" + message,
               success : function(text){
                   if (text == "success"){
